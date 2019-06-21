@@ -39,6 +39,7 @@ ARCH_ARM_HAVE_VFP := true
 TARGET_GLOBAL_CFLAGS   += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_USERIMAGES_USE_EXT4:=true
+TARGET_USERIMAGES_USE_F2FS := true
 
 TARGET_BOOTLOADER_BOARD_NAME := mt6735
 
